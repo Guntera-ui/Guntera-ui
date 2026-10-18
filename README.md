@@ -1,61 +1,31 @@
-<p align="center">
-  <img src="assets/profile-cover.png" width="100%" alt="Giorgi — Small programs. Infinite possibilities. Exploring mathematics through code. Building systems I can understand." />
-</p>
+# Giorgi
 
-<p align="center">
-  <a href="https://github.com/Guntera-ui/FractalForge">Explore FractalForge ↗</a>
-  &nbsp;&nbsp; / &nbsp;&nbsp;
-  <a href="https://github.com/Guntera-ui/Nixos">Inside my NixOS setup ↗</a>
-</p>
+*Software, mathematics, and Linux.*
 
-<br/>
+I build terminal-first tools, explore mathematical graphics, and maintain reproducible Linux environments. I like understanding the systems I use.
 
-<img src="assets/work.png" width="100%" alt="01 — Selected work" />
-
-### [FractalForge ↗](https://github.com/Guntera-ui/FractalForge)
-
-**An infinite landscape, inside a terminal.**
-
-A keyboard-driven Mandelbrot explorer written in Go. Navigate the complex plane with Kitty graphics, adjustable palettes, and multicore progressive rendering.
-
-`Go` &nbsp; `Mathematics` &nbsp; `Terminal graphics`
-
-[Explore the source →](https://github.com/Guntera-ui/FractalForge)
-
-<br/>
-
-### [NixOS / dotfiles ↗](https://github.com/Guntera-ui/Nixos)
-
-**A system described in code.**
-
-Reproducible environments for a desktop and a hybrid-graphics laptop. Built around flakes, Home Manager, and Hyprland, with AMD/NVIDIA PRIME on the laptop.
-
-`Nix` &nbsp; `Linux` &nbsp; `Hyprland`
-
-[Desktop configuration →](https://github.com/Guntera-ui/Nixos/tree/main) &nbsp; / &nbsp; [Hybrid laptop →](https://github.com/Guntera-ui/Nixos/tree/hybrid)
-
-<br/>
-
-### [Static Site Generator ↗](https://github.com/Guntera-ui/StaticSiteGenerator)
-
-**From plain text to a published page.**
-
-A Python generator that turns Markdown into HTML, bringing together templates, static assets, and GitHub Pages publishing.
-
-`Python` &nbsp; `Markdown` &nbsp; `HTML`
-
-[Explore the source →](https://github.com/Guntera-ui/StaticSiteGenerator)
-
-<br/>
-
-<img src="assets/toolbox.png" width="100%" alt="02 — Working tools" />
-
-**Languages** &nbsp; Go · Python · Lua · Nix  
-**Environment** &nbsp; Linux · Neovim · Kitty · Git · GitHub  
-**Hardware** &nbsp; Arduino · ESP32
-
-<br/>
+[FractalForge](https://github.com/Guntera-ui/FractalForge) · [NixOS](https://github.com/Guntera-ui/Nixos) · [Static Site Generator](https://github.com/Guntera-ui/StaticSiteGenerator)
 
 ---
 
-<p align="center"><sub>Mathematics gives me the questions. Building things helps me understand the answers.</sub></p>
+<a href="https://github.com/Guntera-ui/FractalForge"><img align="right" width="210" src="assets/fractalforge-mandelbrot.png" alt="Mandelbrot set rendered by FractalForge" /></a>
+
+### [FractalForge](https://github.com/Guntera-ui/FractalForge) ↗
+
+A Mandelbrot-set explorer for the terminal, written in **Go**. Navigate the complex plane, switch palettes, and render with Kitty's graphics protocol and concurrent computation.
+
+`Go` · `Mathematics` · `Kitty graphics`
+
+[Source & documentation →](https://github.com/Guntera-ui/FractalForge)
+
+<br clear="right" />
+
+### More projects
+
+**[NixOS](https://github.com/Guntera-ui/Nixos)** — Declarative Hyprland configurations with Home Manager, including an [AMD/NVIDIA hybrid setup](https://github.com/Guntera-ui/Nixos/tree/hybrid).
+
+**[Static Site Generator](https://github.com/Guntera-ui/StaticSiteGenerator)** — A Python tool that turns Markdown into a static website.
+
+---
+
+<sub>Go · Python · Nix · Lua · Linux · Git · Neovim</sub>
