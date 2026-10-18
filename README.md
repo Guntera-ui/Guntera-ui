@@ -1,111 +1,149 @@
 <div align="center">
 
-<sub>GUNTERA-UI <code>/</code> SOFTWARE · MATHEMATICS · LINUX</sub>
+<img src="assets/identity.svg" width="100%" alt="Giorgi — Guntera-ui. Mathematics, software, and Linux." />
 
-# Giorgi.
-
-**Making mathematical ideas visible and computer systems understandable.**
-
-I build terminal-first software, explore computer graphics, and maintain my own Linux environments.
-
-[**Projects ↓**](#selected-work) &nbsp;·&nbsp; [**NixOS configuration ↗**](https://github.com/Guntera-ui/Nixos) &nbsp;·&nbsp; [**Repositories ↗**](https://github.com/Guntera-ui?tab=repositories)
-
-</div>
-
----
-
-### `01 / ABOUT`
-
-```text
-$ whoami
-  Giorgi  ·  Guntera-ui
-
-$ current-interests
-  mathematical visualization
-  systems programming
-  reproducible Linux environments
-  tools worth understanding from the inside
-```
-
-I prefer small, well-understood programs over complicated abstractions. My interests sit somewhere between **mathematics, developer tooling, graphical computing, and Linux systems**.
-
-I work primarily with **Go**, **Python**, and **Nix**, and enjoy experimenting with terminal interfaces, graphics, and hardware.
-
----
-
-### `02 / SELECTED WORK`
-
-<table>
-  <tr>
-    <td width="54%" valign="top">
-      <sub>FEATURED PROJECT · VISUAL COMPUTING</sub>
-      <h2><a href="https://github.com/Guntera-ui/FractalForge">FractalForge ↗</a></h2>
-      <p>A <strong>Mandelbrot-set explorer</strong> built for the terminal, written in Go.</p>
-      <p>Explore the complex plane with keyboard navigation, multiple palettes, and image rendering using Kitty's graphics protocol.</p>
-      <p><code>Go</code> <code>Mathematics</code> <code>Kitty graphics</code> <code>Concurrency</code></p>
-      <p><a href="https://github.com/Guntera-ui/FractalForge"><strong>Source code and documentation →</strong></a></p>
-    </td>
-    <td width="46%" valign="middle" align="center">
-      <a href="https://github.com/Guntera-ui/FractalForge">
-        <img src="assets/fractalforge-mandelbrot.png" width="390" alt="Original Mandelbrot fractal render supplied by Giorgi for FractalForge" />
-      </a>
-      <br />
-      <sub>Actual fractal render · zₙ₊₁ = zₙ² + c</sub>
-    </td>
-  </tr>
-</table>
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <sub>OPERATING SYSTEMS · REPRODUCIBILITY</sub>
-      <h3><a href="https://github.com/Guntera-ui/Nixos">NixOS / dotfiles ↗</a></h3>
-      <p>My declarative Linux environment: Hyprland, Home Manager, flakes, and custom desktop tooling.</p>
-      <p>Separate setups for a desktop and an <strong>AMD + NVIDIA hybrid laptop</strong>, including PRIME offloading and ASUS-specific integration.</p>
-      <p><code>Nix</code> <code>Hyprland</code> <code>Home Manager</code></p>
-      <p><a href="https://github.com/Guntera-ui/Nixos">Browse the configuration →</a></p>
-    </td>
-    <td width="50%" valign="top">
-      <sub>BUILD TOOLS · WEB</sub>
-      <h3><a href="https://github.com/Guntera-ui/StaticSiteGenerator">Static Site Generator ↗</a></h3>
-      <p>A Python-based tool that turns Markdown content into a static website.</p>
-      <p>Built to understand templates, content processing, asset handling, and deployment with GitHub Pages.</p>
-      <p><code>Python</code> <code>Markdown</code> <code>HTML</code></p>
-      <p><a href="https://github.com/Guntera-ui/StaticSiteGenerator">Explore the project →</a></p>
-    </td>
-  </tr>
-</table>
-
----
-
-### `03 / THE TOOLBOX`
-
-| Layer | What I use |
-| :--- | :--- |
-| **Languages** | `Go` · `Python` · `Lua` · `Nix` |
-| **Linux** | `NixOS` · `Hyprland` · `Home Manager` |
-| **Workflow** | `Git` · `Kitty` · `Vim / Neovim` · `zsh` |
-| **Exploring** | `ESP32` · `KiCad` · `FreeCAD` · terminal UI design |
-
-<details>
-<summary><strong>What I'm interested in building next</strong></summary>
 <br />
 
-- **More mathematical software:** fractals, visualization, and numerical experiments.
-- **Better terminal applications:** interfaces where keyboard navigation and behavior are first-class concerns.
-- **Hardware-software prototypes:** small interactive devices, electronics, and practical tooling.
-- **Cleaner NixOS configurations:** reproducible development environments and well-separated hardware modules.
+<strong>Mathematical visualization · Terminal applications · Reproducible Linux systems</strong>
 
-</details>
-
----
-
-<div align="center">
-
-<sub><code>BUILD → UNDERSTAND → REFINE</code></sub>
+<sub>I like understanding the systems I use, then building things of my own.</sub>
 
 <br /><br />
 
-[Explore all repositories ↗](https://github.com/Guntera-ui?tab=repositories)
+<a href="#featured-work"><img src="https://img.shields.io/badge/Explore-Projects-c6a0f6?style=for-the-badge&amp;labelColor=19152b" alt="Explore projects" /></a>&nbsp;
+<a href="https://github.com/Guntera-ui/Nixos"><img src="https://img.shields.io/badge/View-NixOS%20Config-67d8e8?style=for-the-badge&amp;labelColor=111c2b" alt="View NixOS configuration" /></a>&nbsp;
+<a href="https://github.com/Guntera-ui?tab=repositories"><img src="https://img.shields.io/badge/All-Repositories-ed91be?style=for-the-badge&amp;labelColor=231328" alt="All repositories" /></a>
+
+</div>
+
+<br />
+
+## <code>01 /</code> The workspace
+
+<table>
+<tr>
+<td width="56%" valign="top">
+  <h3>What I work on</h3>
+  <p>I build <strong>terminal-first software</strong>, explore mathematical graphics, and configure my own Linux environments.</p>
+  <p>I'm interested in systems that are understandable from the inside: algorithms, rendering pipelines, keyboard-driven tools, and hardware interfaces.</p>
+</td>
+<td width="44%" valign="top">
+  <h3>Currently exploring</h3>
+  <p>↳ &nbsp;<strong>Go</strong> for tools and visual computation<br/>
+  ↳ &nbsp;<strong>NixOS</strong> for reproducible systems<br/>
+  ↳ &nbsp;<strong>ESP32</strong> for connected hardware<br/>
+  ↳ &nbsp;<strong>Mathematics</strong> through code</p>
+</td>
+</tr>
+</table>
+
+---
+
+<a id="featured-work"></a>
+
+## <code>02 /</code> Featured work
+
+<table>
+<tr>
+<td width="52%" valign="top">
+<sub>01 — VISUAL COMPUTING / FEATURED PROJECT</sub>
+<h2><a href="https://github.com/Guntera-ui/FractalForge">FractalForge ↗</a></h2>
+<p><strong>Explore the Mandelbrot set from your terminal.</strong></p>
+<p>A Go application with keyboard navigation, multiple color palettes, and rendering through the Kitty graphics protocol. Multicore refinement keeps the experience interactive as detail increases.</p>
+<p>
+<img src="https://img.shields.io/badge/Go-111729?style=flat-square&amp;logo=go&amp;logoColor=67d8e8" alt="Go" />
+<img src="https://img.shields.io/badge/Kitty%20Graphics-111729?style=flat-square&amp;logo=gnometerminal&amp;logoColor=c6a0f6" alt="Kitty graphics" />
+<img src="https://img.shields.io/badge/Fractals-111729?style=flat-square&amp;logoColor=ed91be" alt="Fractals" />
+</p>
+<p><a href="https://github.com/Guntera-ui/FractalForge"><strong>Browse source &amp; documentation →</strong></a></p>
+</td>
+<td width="48%" valign="middle" align="center">
+<a href="https://github.com/Guntera-ui/FractalForge"><img src="assets/fractalforge-mandelbrot.png" alt="Actual FractalForge Mandelbrot render with pastel cyan, mint, peach, and pink bands" width="390" /></a>
+<br/><sub>REAL FRACTALFORGE RENDER · <code>zₙ₊₁ = zₙ² + c</code></sub>
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td width="50%" valign="top">
+  <p><img src="https://skillicons.dev/icons?i=nix&amp;theme=dark" height="38" alt="NixOS icon" /></p>
+  <sub>02 — LINUX / SYSTEMS</sub>
+  <h3><a href="https://github.com/Guntera-ui/Nixos">NixOS configurations ↗</a></h3>
+  <p>A customized <strong>Hyprland + Home Manager</strong> environment managed declaratively with flakes.</p>
+  <p>Separate desktop and ASUS hybrid-graphics configurations, with AMD as the desktop GPU and NVIDIA PRIME offload for demanding applications.</p>
+  <p><code>Nix</code> &nbsp; <code>Hyprland</code> &nbsp; <code>Lua</code></p>
+  <p><a href="https://github.com/Guntera-ui/Nixos/tree/main">Desktop branch →</a> &nbsp; · &nbsp; <a href="https://github.com/Guntera-ui/Nixos/tree/hybrid">Hybrid branch →</a></p>
+</td>
+<td width="50%" valign="top">
+  <p><img src="https://skillicons.dev/icons?i=py,html,md&amp;theme=dark" height="38" alt="Python, HTML, and Markdown icons" /></p>
+  <sub>03 — PYTHON / BUILD TOOLS</sub>
+  <h3><a href="https://github.com/Guntera-ui/StaticSiteGenerator">Static Site Generator ↗</a></h3>
+  <p>A Markdown-to-HTML generator written in Python.</p>
+  <p>Built around content parsing, templates, reusable assets, and publishing static pages to GitHub Pages.</p>
+  <p><code>Python</code> &nbsp; <code>Markdown</code> &nbsp; <code>HTML</code></p>
+  <p><a href="https://github.com/Guntera-ui/StaticSiteGenerator">Explore repository →</a></p>
+</td>
+</tr>
+</table>
+
+---
+
+## <code>03 /</code> Toolbox
+
+<sub>LANGUAGES &amp; SYSTEMS</sub>
+
+<p>
+<a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=go,py,lua,nix,linux,git&amp;theme=dark" alt="Go, Python, Lua, Nix, Linux and Git" /></a>
+</p>
+
+<sub>EDITOR &amp; WORKFLOW</sub>
+
+<p>
+<a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=vim,neovim,bash,github,md&amp;theme=dark" alt="Vim, Neovim, Bash, GitHub and Markdown" /></a>
+</p>
+
+<sub>HARDWARE &amp; CREATIVE TOOLS</sub>
+
+<p>
+<a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=arduino,blender&amp;theme=dark" alt="Arduino and Blender" /></a>
+&nbsp; <code>ESP32</code> &nbsp; <code>KiCad</code> &nbsp; <code>FreeCAD</code> &nbsp; <code>Kitty</code>
+</p>
+
+---
+
+## <code>04 /</code> On the workbench
+
+<table>
+<tr>
+<td width="50%" valign="top">
+  <b>Mathematical software</b><br/>
+  <sub>Fractals, numerical experiments, computational visualization.</sub>
+</td>
+<td width="50%" valign="top">
+  <b>Hardware × software</b><br/>
+  <sub>Small ESP32 devices, sensors, custom PCBs, connected prototypes.</sub>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+  <b>Terminal interfaces</b><br/>
+  <sub>Keyboard-native tools with a deliberate, minimal interaction model.</sub>
+</td>
+<td width="50%" valign="top">
+  <b>Reproducible development</b><br/>
+  <sub>Flakes, development shells, hardware-specific NixOS modules.</sub>
+</td>
+</tr>
+</table>
+
+<br/>
+<div align="center">
+
+<sub><code>BUILD</code> &nbsp; ── &nbsp; <code>UNDERSTAND</code> &nbsp; ── &nbsp; <code>REFINE</code></sub>
+
+<br/><br/>
+
+<a href="https://github.com/Guntera-ui?tab=repositories"><strong>Explore my repositories ↗</strong></a>
 
 </div>

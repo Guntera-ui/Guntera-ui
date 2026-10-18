@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+<title id="title">Giorgi — Guntera-ui</title>
+<desc id="desc">Terminal-inspired dark purple identity banner with mathematical code and cyan, lavender, and pink accent lines.</desc>
+<defs>
+  <linearGradient id="back" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0c0d19"/><stop offset=".55" stop-color="#161127"/><stop offset="1" stop-color="#091c29"/></linearGradient>
+  <linearGradient id="stroke" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#c6a0f6"/><stop offset=".53" stop-color="#ed91be"/><stop offset="1" stop-color="#67d8e8"/></linearGradient>
+  <linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#c6a0f6" stop-opacity=".65"/><stop offset="1" stop-color="#67d8e8" stop-opacity=".6"/></linearGradient>
+  <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse"><path d="M42 0H0V42" fill="none" stroke="#c6a0f6" stroke-opacity=".09" stroke-width="1"/></pattern>
+</defs>
+<rect x="2" y="2" width="1196" height="296" rx="17" fill="url(#back)" stroke="url(#stroke)" stroke-width="2.6"/>
+<rect x="5" y="5" width="1190" height="290" rx="15" fill="url(#grid)"/>
+<path d="M38 51H615" stroke="url(#line)" opacity=".8"/>
+<circle cx="39" cy="50" r="4" fill="#67d8e8"/>
+<circle cx="53" cy="50" r="4" fill="#ed91be"/>
+<circle cx="67" cy="50" r="4" fill="#c6a0f6"/>
+<text x="91" y="54" fill="#83deeb" font-family="DejaVu Sans Mono, monospace" font-size="15" letter-spacing="2.7">GUNTERA-UI / PROFILE</text>
+<text x="41" y="163" fill="#f8f4ff" font-family="DejaVu Sans, Arial, sans-serif" font-size="91" font-weight="800" letter-spacing="-4">GIORGI</text>
+<rect x="46" y="177" width="329" height="3" rx="1" fill="url(#stroke)"/>
+<text x="43" y="216" fill="#c6a0f6" font-family="DejaVu Sans Mono, monospace" font-size="19" font-weight="bold">MATH  /  SOFTWARE  /  LINUX</text>
+<text x="43" y="257" fill="#a7a7c3" font-family="DejaVu Sans, Arial, sans-serif" font-size="17">Building to understand how things work.</text>
+<!-- A terminal panel: text and exact math, not a generated illustration -->
+<rect x="675" y="47" width="473" height="205" rx="11" fill="#0e1020" stroke="#655780" stroke-width="1.6"/>
+<path d="M675 81H1148" stroke="#403755"/>
+<circle cx="696" cy="65" r="5" fill="#ed91be"/><circle cx="715" cy="65" r="5" fill="#c6a0f6"/><circle cx="734" cy="65" r="5" fill="#67d8e8"/>
+<text x="765" y="70" font-family="DejaVu Sans Mono, monospace" font-size="14" fill="#8d89ab">~/projects</text>
+<text x="700" y="118" font-family="DejaVu Sans Mono, monospace" font-size="18" fill="#80d9e8">❯</text>
+<text x="729" y="118" font-family="DejaVu Sans Mono, monospace" font-size="17" fill="#d7d2e5">go run .                  </text>
+<text x="700" y="157" font-family="DejaVu Sans Mono, monospace" font-size="18" fill="#c6a0f6">❯</text>
+<text x="729" y="157" font-family="DejaVu Sans Mono, monospace" font-size="17" fill="#d7d2e5">nix develop                 </text>
+<path d="M702 177H1120" stroke="#322c49"/>
+<text x="701" y="215" font-family="DejaVu Sans Mono, monospace" font-size="17" fill="#ed91be">//</text>
+<text x="739" y="215" font-family="DejaVu Sans Mono, monospace" font-size="18" fill="#c1afde">zₙ₊₁ = zₙ² + c</text>
+<rect x="1090" y="275" width="56" height="3" rx="2" fill="#67d8e8"/>
+<rect x="1015" y="275" width="69" height="3" rx="2" fill="#c6a0f6"/>
+<rect x="938" y="275" width="70" height="3" rx="2" fill="#ed91be"/>
+</svg>
