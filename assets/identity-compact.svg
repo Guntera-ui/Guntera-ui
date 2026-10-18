@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="168" viewBox="0 0 1200 168" role="img" aria-labelledby="t d">
+<title id="t">Giorgi — Guntera-ui</title>
+<desc id="d">A minimal dark developer identity plate with lavender and cyan geometric accents.</desc>
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0c101b"/><stop offset=".64" stop-color="#151327"/><stop offset="1" stop-color="#0b2030"/></linearGradient>
+ <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#b89af7"/><stop offset=".53" stop-color="#f39bc2"/><stop offset="1" stop-color="#6ddfe8"/></linearGradient>
+ <pattern id="dots" width="36" height="36" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r=".7" fill="#6ddfe8" opacity=".19"/></pattern>
+</defs>
+<rect x="1.5" y="1.5" width="1197" height="165" rx="9" fill="url(#bg)" stroke="#39394f" stroke-width="2"/>
+<rect x="1.5" y="1.5" width="1197" height="3" rx="1" fill="url(#edge)"/>
+<rect x="670" y="15" width="500" height="138" fill="url(#dots)"/>
+<text x="35" y="43" fill="#80dce7" font-family="DejaVu Sans Mono, monospace" font-weight="bold" font-size="15" letter-spacing="2.5">GUNTERA-UI / PROFILE</text>
+<text x="33" y="116" fill="#f6f3ff" font-family="DejaVu Sans,Arial,sans-serif" font-weight="800" font-size="69" letter-spacing="-2">GIORGI<tspan fill="#e993c0">.</tspan></text>
+<line x1="343" y1="71" x2="343" y2="130" stroke="#b89af7" stroke-width="2" opacity=".7"/>
+<text x="366" y="87" fill="#c6a0f6" font-family="DejaVu Sans Mono, monospace" font-size="18">mathematics / software / linux</text>
+<text x="367" y="113" fill="#9da6ba" font-family="DejaVu Sans Mono,monospace" font-size="15">build  →  understand  →  refine</text>
+<g opacity=".8" fill="none" stroke-width="1.5">
+  <path d="M890 129H1165" stroke="#74dae7" opacity=".22"/>
+  <path d="M954 37V129" stroke="#b89af7" opacity=".24"/>
+  <path d="M990 93c16-37 41-41 52-8 12 36 41 22 65-9" stroke="#e993c0"/>
+  <path d="M994 102c24-58 48-20 65-24 22-6 34-27 46-29" stroke="#74dae7" opacity=".85"/>
+ </g>
+ <circle cx="990" cy="93" r="4" fill="#e993c0"/><circle cx="1105" cy="76" r="4" fill="#74dae7"/>
+ <text x="1148" y="146" text-anchor="end" fill="#677089" font-family="DejaVu Sans Mono,monospace" font-size="12">z → z² + c</text>
+</svg>
