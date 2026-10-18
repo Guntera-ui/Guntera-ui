@@ -1,81 +1,111 @@
 <div align="center">
 
-<img src="assets/hero.svg" alt="Giorgi — math-minded software, Linux systems and visual experiments" width="100%" />
+<sub>GUNTERA-UI <code>/</code> SOFTWARE · MATHEMATICS · LINUX</sub>
 
-<br />
+# Giorgi.
 
-**I like making mathematical ideas visible and computer systems understandable.**
+**Making mathematical ideas visible and computer systems understandable.**
 
-[![Portfolio](https://img.shields.io/badge/Repositories-Explore-C3A0FF?style=flat-square&labelColor=181528)](https://github.com/Guntera-ui?tab=repositories) [![NixOS](https://img.shields.io/badge/NixOS-Config-7AE8F2?style=flat-square&labelColor=181528)](https://github.com/Guntera-ui/Nixos) [![FractalForge](https://img.shields.io/badge/FractalForge-Explore-F79BC8?style=flat-square&labelColor=181528)](https://github.com/Guntera-ui/FractalForge)
+I build terminal-first software, explore computer graphics, and maintain my own Linux environments.
+
+[**Projects ↓**](#selected-work) &nbsp;·&nbsp; [**NixOS configuration ↗**](https://github.com/Guntera-ui/Nixos) &nbsp;·&nbsp; [**Repositories ↗**](https://github.com/Guntera-ui?tab=repositories)
 
 </div>
 
-### `> whoami`
+---
 
-I'm **Giorgi** (`Guntera-ui`). I enjoy writing software that connects **mathematics**, **systems programming**, and **visual computing**. I also spend a questionable amount of time making my Linux desktop feel exactly right.
-
-- **Building:** terminal-first applications and mathematical visualizations.
-- **Running:** NixOS + Hyprland, with declarative configuration and reproducible environments.
-- **Exploring:** Go, embedded electronics, graphics, and the internals behind everyday tools.
-
-<br />
-
-### `> ls ~/projects`
-
-<a href="https://github.com/Guntera-ui/FractalForge"><img src="assets/fractalforge.svg" alt="FractalForge: an interactive Mandelbrot explorer written in Go" width="100%" /></a>
-
-<sub>An interactive Mandelbrot-set explorer with Kitty graphics rendering, keyboard navigation, multiple palettes, and multicore tile-based refinement.</sub>
-
-<br /><br />
-
-<table>
-<tr>
-<td width="50%" valign="top">
-<a href="https://github.com/Guntera-ui/Nixos"><img src="assets/nixos.svg" alt="NixOS and Hyprland configuration" width="100%" /></a>
-<br />
-<sub>My declarative NixOS environment, with desktop and hybrid AMD/NVIDIA configurations.</sub>
-</td>
-<td width="50%" valign="top">
-<a href="https://github.com/Guntera-ui/StaticSiteGenerator"><img src="assets/site-generator.svg" alt="Python static site generator" width="100%" /></a>
-<br />
-<sub>A Markdown-to-HTML site generator with templates, assets, and GitHub Pages deployment.</sub>
-</td>
-</tr>
-</table>
-
-<br />
-
-### `> cat toolkit.txt`
-
-**Languages & tools**
-
-![Go](https://img.shields.io/badge/GO-141424?style=for-the-badge&logo=go&logoColor=7AE8F2&labelColor=141424)
-![Python](https://img.shields.io/badge/PYTHON-141424?style=for-the-badge&logo=python&logoColor=F79BC8&labelColor=141424)
-![NixOS](https://img.shields.io/badge/NIXOS-141424?style=for-the-badge&logo=nixos&logoColor=C3A0FF&labelColor=141424)
-![Linux](https://img.shields.io/badge/LINUX-141424?style=for-the-badge&logo=linux&logoColor=7AE8F2&labelColor=141424)
-![Git](https://img.shields.io/badge/GIT-141424?style=for-the-badge&logo=git&logoColor=F79BC8&labelColor=141424)
-![Lua](https://img.shields.io/badge/LUA-141424?style=for-the-badge&logo=lua&logoColor=C3A0FF&labelColor=141424)
-
-`Kitty` · `Hyprland` · `Neovim` · `Home Manager` · `Flakes` · `GitHub Pages`
-
-<br />
-
-### `> focus --now`
+### `01 / ABOUT`
 
 ```text
-01  Mathematics in the terminal    →  exploring graphics, rendering and interaction
-02  Reproducible systems            →  maintaining and refining my NixOS setup
-03  Learning by building           →  small, useful tools from the ground up
+$ whoami
+  Giorgi  ·  Guntera-ui
+
+$ current-interests
+  mathematical visualization
+  systems programming
+  reproducible Linux environments
+  tools worth understanding from the inside
 ```
+
+I prefer small, well-understood programs over complicated abstractions. My interests sit somewhere between **mathematics, developer tooling, graphical computing, and Linux systems**.
+
+I work primarily with **Go**, **Python**, and **Nix**, and enjoy experimenting with terminal interfaces, graphics, and hardware.
+
+---
+
+### `02 / SELECTED WORK`
+
+<table>
+  <tr>
+    <td width="54%" valign="top">
+      <sub>FEATURED PROJECT · VISUAL COMPUTING</sub>
+      <h2><a href="https://github.com/Guntera-ui/FractalForge">FractalForge ↗</a></h2>
+      <p>A <strong>Mandelbrot-set explorer</strong> built for the terminal, written in Go.</p>
+      <p>Explore the complex plane with keyboard navigation, multiple palettes, and image rendering using Kitty's graphics protocol.</p>
+      <p><code>Go</code> <code>Mathematics</code> <code>Kitty graphics</code> <code>Concurrency</code></p>
+      <p><a href="https://github.com/Guntera-ui/FractalForge"><strong>Source code and documentation →</strong></a></p>
+    </td>
+    <td width="46%" valign="middle" align="center">
+      <a href="https://github.com/Guntera-ui/FractalForge">
+        <img src="assets/fractalforge-mandelbrot.png" width="390" alt="Original Mandelbrot fractal render supplied by Giorgi for FractalForge" />
+      </a>
+      <br />
+      <sub>Actual fractal render · zₙ₊₁ = zₙ² + c</sub>
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <sub>OPERATING SYSTEMS · REPRODUCIBILITY</sub>
+      <h3><a href="https://github.com/Guntera-ui/Nixos">NixOS / dotfiles ↗</a></h3>
+      <p>My declarative Linux environment: Hyprland, Home Manager, flakes, and custom desktop tooling.</p>
+      <p>Separate setups for a desktop and an <strong>AMD + NVIDIA hybrid laptop</strong>, including PRIME offloading and ASUS-specific integration.</p>
+      <p><code>Nix</code> <code>Hyprland</code> <code>Home Manager</code></p>
+      <p><a href="https://github.com/Guntera-ui/Nixos">Browse the configuration →</a></p>
+    </td>
+    <td width="50%" valign="top">
+      <sub>BUILD TOOLS · WEB</sub>
+      <h3><a href="https://github.com/Guntera-ui/StaticSiteGenerator">Static Site Generator ↗</a></h3>
+      <p>A Python-based tool that turns Markdown content into a static website.</p>
+      <p>Built to understand templates, content processing, asset handling, and deployment with GitHub Pages.</p>
+      <p><code>Python</code> <code>Markdown</code> <code>HTML</code></p>
+      <p><a href="https://github.com/Guntera-ui/StaticSiteGenerator">Explore the project →</a></p>
+    </td>
+  </tr>
+</table>
+
+---
+
+### `03 / THE TOOLBOX`
+
+| Layer | What I use |
+| :--- | :--- |
+| **Languages** | `Go` · `Python` · `Lua` · `Nix` |
+| **Linux** | `NixOS` · `Hyprland` · `Home Manager` |
+| **Workflow** | `Git` · `Kitty` · `Vim / Neovim` · `zsh` |
+| **Exploring** | `ESP32` · `KiCad` · `FreeCAD` · terminal UI design |
+
+<details>
+<summary><strong>What I'm interested in building next</strong></summary>
+<br />
+
+- **More mathematical software:** fractals, visualization, and numerical experiments.
+- **Better terminal applications:** interfaces where keyboard navigation and behavior are first-class concerns.
+- **Hardware-software prototypes:** small interactive devices, electronics, and practical tooling.
+- **Cleaner NixOS configurations:** reproducible development environments and well-separated hardware modules.
+
+</details>
+
+---
 
 <div align="center">
 
-<img src="assets/divider.svg" alt="Build, explore, refine" width="100%" />
-
-<sub><code>make it work</code> → <code>understand it</code> → <code>make it better</code></sub>
+<sub><code>BUILD → UNDERSTAND → REFINE</code></sub>
 
 <br /><br />
 
-<a href="https://github.com/Guntera-ui?tab=repositories">Browse all repositories →</a>
+[Explore all repositories ↗](https://github.com/Guntera-ui?tab=repositories)
 
 </div>
